@@ -1,0 +1,12 @@
+import "./01-primitives";
+import "./02-arrays";
+import "./03-types";
+import "./04-interface";
+import "./05-enums";
+import "./06-functions";
+import "./07-classes";
+import "./08-generic-fn";
+import "./09-extending-generics";
+import "./10-generic-interfaces";
+import "./11-more-examples-with-generics";
+import "./12-generic-classes";
