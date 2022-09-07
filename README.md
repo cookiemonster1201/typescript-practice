@@ -1,54 +1,56 @@
-composition                                     --------->.   number | string | boolean
+1) COMPOSITION                                  --------->.   number | string | boolean
 
 
 
 
 
 
-tuple  (for Arrays of predefined length)        --------->.     [number | string | boolean]
+2) TUPLE  (for Arrays of predefined length)        --------->.     [number | string | boolean]
 
 
 
 
 
 
-types  (for primitives or arrays)               --------->.     type ID = number | string (like a variable for storing tuples/compositions/simple types)
+3) TYPES  (for primitives or arrays)               --------->.     type ID = number | string (like a variable for storing tuples/compositions/simple types)
 
 
 
 
 
 
-types union  (for a number of specific VALUES)  --------->.     type RequestStatus = "request" | "success" | "error".    type CellSize = 4 | 8 | 12 | 18
+4) TYPE UNION  (for a number of specific VALUES)  --------->.     type RequestStatus = "request" | "success" | "error".    type CellSize = 4 | 8 | 12 | 18
 
 
 
 
 
 
-interfaces (for describing the shape of obj)    --------->.     interface IPluginConfig {selector: string; readonly perPage: number, draggable?: boolean}
+5) INTERFACE (for describing the shape of obj)    --------->.     interface IPluginConfig {selector: string; readonly perPage: number, draggable?: boolean}
 
 
 
 
 
 
-interface (with unknown quantity of properties)    ----------->.     interface IPerson {[key: string]: number}
+6) INTERFACE (with unknown quantity of properties)    ----------->.     interface IPerson {[key: string]: number}
 
 
 
 
 
 
-enums (for several options)            -------------->.     enum PizzaSize {Small = 's', Medium = 'm', Large = 'l'}
+7) ENUM (for several options)            -------------->.     enum PizzaSize {Small = 's', Medium = 'm', Large = 'l'}
 
 
 
 
 
 
-extenstion of interfaces (like extending basic classes)    ------------->  onterface IStudent extends Iperson { property for extension }
+8) EXTENSION of interfaces (like extending basic classes)    ------------->  onterface IStudent extends Iperson { property for extension }
 
 
 
 
+
+9) GENERICS (for utility functions mostly when we can't predict the type of passed parameters)         -------------->     <T> ..... :T 
