@@ -53,4 +53,7 @@
 
 
 
-9) GENERICS (for utility functions mostly when we can't predict the type of passed parameters)         -------------->     <T> ..... :T 
+9) GENERICS (for utility FUNCTIONS mostly when we can't predict the type of passed parameters or for OBJECTS with properties of any type)         -------------->     <T> ..... :T 
+  
+  
+  
